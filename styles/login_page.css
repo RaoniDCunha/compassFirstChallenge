@@ -6,7 +6,8 @@
 
 }
 
-.login-page > header {
+/* Header */
+    header {
     background-color: #1e1e1e;
     width: 100vw;
     height: 109px;
@@ -33,12 +34,15 @@ header >  #header-title-text{
     color: #FFFFFF;
 }
 
+/* Corpo da página */
+
 section {
 
     display: flex;
     align-items: center;
     justify-content:center;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 6.25rem;
     margin-top: 4.25rem;
     margin-bottom: 3.25rem;
@@ -47,6 +51,8 @@ section {
 
 
 }
+
+/* Container de formulário */
 
 .login-form-container{
 
@@ -120,11 +126,41 @@ form > #login-form-button{
 
 }
 
+.account-create{
+    color: #000;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 5.8rem;
+    margin-bottom: 6rem;
+}
+
+.account-create-button{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FE8100;
+    text-decoration: none;
+}
+
+/*  Divisórias*/
+
 #divider-line-horizontal{
     background-color: #d8d8d8;
-    height: 1px;
+    height: 2px;
     width: 468px;
 }
+
+#divider-line-vertical{
+    background-color: #f8f8f8;
+    height: 893px;
+    width: 2px;
+}
+
+
+/*  Container com Imagem*/
 
 .login-image-container{
 
@@ -150,27 +186,4 @@ form > #login-form-button{
     width: 540px;
 }
 
-#divider-line-vertical{
-    background-color: #f8f8f8;
-    height: 893px;
-    width: 2px;
-}
 
-.account-create{
-    color: #000;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    margin-top: 5.8rem;
-    margin-bottom: 6rem;
-}
-
-.account-create-button{
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
-    color: #FE8100;
-    text-decoration: none;
-}

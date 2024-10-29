@@ -1,5 +1,158 @@
+
+
 .logged_page{
     width: 100vw;
     overflow-x: hidden;
     background-color: #fff;
+    overflow-x: hidden;
 }
+
+/* Inicial Image */
+
+.image-container {
+    width: 100vw;
+    height: 48rem ;
+    background-image: url('../assets/image_container_logged_page.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 18.6rem;
+    padding-right: 18.6rem;
+    padding-top: 6.8rem;
+}
+
+.image-container > div {
+    height: 9.37rem ;
+    width: 46.25rem;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: left;
+    color:  #3C3C3C;
+    
+
+}
+
+/* Service Container */
+
+.services-container{
+    height: 31rem ;
+    width: 100vw ;
+    padding-left: 18.6rem;
+    padding-right: 18.6rem;
+    padding-top: 4.93rem;
+}
+
+.services-container > span{
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 54px;
+    color: #343434;
+
+}
+
+.services{
+    width: 80.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.37rem;
+    flex-wrap: wrap;
+}
+
+.services > .service-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services > .service-card > img{
+    height: 15.37rem ;
+    width: 15.37rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.services > .service-card > .services-card-title{
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+    color: #343434;
+
+}
+
+.services > .service-card > .services-card-offer{
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #848383;
+
+}
+
+
+/* Appartaments Container */
+
+
+.appartaments-container {
+    height: 55.2rem ;
+    width: 100vw ;
+    padding-left: 18.6rem;
+    padding-right: 18.6rem;
+    
+}
+
+.appartaments-container > span{
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 3.38rem;
+    text-align: left;
+    margin-bottom: 1.56rem ;
+    color: #343434;
+}
+
+
+.appartaments-container > #appartament-cards-container {
+
+    display: flex;
+    justify-content:start;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    gap: 2.43rem;
+    
+}
+
+.appartaments-container > #appartament-cards-container > .appartament-card {
+
+    display: flex;
+    justify-content:start;
+    flex-wrap: wrap;
+    flex-direction: column ;
+    gap: 1rem;
+    
+}
+
+.appartaments-container >  #appartament-cards-container> .appartament-card > img{
+    height: 12.31rem ;
+    width: 18.25rem ;
+    
+}
+
+
+/* Footer */
+
+footer {
+    height: 17.3rem ;
+    width: 100vw ;
+    background-color: #1e1e1e ;
+}
+
+
+
+/* Modal */
