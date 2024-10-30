@@ -1,4 +1,6 @@
-
+body {
+    scroll-behavior: smooth; 
+  }
 
 .logged_page{
     width: 100vw;
@@ -19,18 +21,19 @@
     padding-left: 18.6rem;
     padding-right: 18.6rem;
     padding-top: 6.8rem;
+    flex-wrap: wrap;
 }
 
 .image-container > div {
     height: 9.37rem ;
     width: 46.25rem;
     font-family: Poppins;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 600;
-    line-height: 75px;
+    line-height: 4.6875rem;
     text-align: left;
     color:  #3C3C3C;
-    
+    flex-wrap: wrap;
 
 }
 
@@ -47,13 +50,13 @@
 .services-container > span{
     font-weight: 400;
     font-size: 2.25rem;
-    line-height: 54px;
+    line-height: 3.375rem;
     color: #343434;
 
 }
 
 .services{
-    width: 80.7rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,7 +82,7 @@
     font-family: Inter;
     font-size: 1.5rem;
     font-weight: 400;
-    line-height: 29.05px;
+    line-height: 1.8125rem;
     text-align: left;
     color: #343434;
 
@@ -89,7 +92,7 @@
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 19.36px;
+    line-height: 1.1875rem;
     text-align: left;
     color: #848383;
 
@@ -100,10 +103,11 @@
 
 
 .appartaments-container {
-    height: 55.2rem ;
+    /*height: 55.2rem ; */
     width: 100vw ;
     padding-left: 18.6rem;
     padding-right: 18.6rem;
+    padding-bottom: 9.8rem;
     
 }
 
@@ -113,7 +117,6 @@
     font-weight: 400;
     line-height: 3.38rem;
     text-align: left;
-    margin-bottom: 1.56rem ;
     color: #343434;
 }
 
@@ -125,6 +128,7 @@
     flex-wrap: wrap;
     flex-direction: row ;
     gap: 2.43rem;
+    margin-top: 1.56rem;
     
 }
 
@@ -138,10 +142,55 @@
     
 }
 
-.appartaments-container >  #appartament-cards-container> .appartament-card > img{
+.appartament-card > img{
     height: 12.31rem ;
     width: 18.25rem ;
+    border-radius: 0.75rem;
     
+}
+
+ .appartament-card > .appartament-card-price {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+    text-align: left;
+    color: #343434;
+
+}
+
+.appartament-card > .appartament-card-dimensions {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.25rem;
+    text-align: left;
+    color: #848383;
+
+}
+
+ .appartament-card > .appartament-card-specifics {
+    display: flex;
+    flex-direction: row;
+    gap: 1.56rem;
+
+}
+
+ .appartament-card-specifics >.appartament-card-specifics-information  {
+
+    background-color: #FE8100;
+    color: #E9ECF2;
+    font-family: Inter;
+    font-size: 0.93rem;
+    font-weight: 400;
+    line-height: 1.13rem;
+    text-align: left;
+    padding-top: 0.31rem ;
+    padding-bottom:  0.31rem;
+    padding-left: 0.37rem ;
+    padding-right: 0.37rem ;
+    border-radius: 0.5rem;
+
 }
 
 
@@ -151,8 +200,166 @@ footer {
     height: 17.3rem ;
     width: 100vw ;
     background-color: #1e1e1e ;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    padding-left: 18.6rem;
+    padding-right: 18.6rem;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    text-align: left;
+    color: #E9ECF2;
+    padding-bottom: 3.43rem ;
+
+}
+
+#contact-information-container{
+    width: 13.18rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-information-container > :first-child{
+    color: #FE8100;
+    margin-bottom: 1.81rem ;
+}
+
+#contact-information-container > span{
+    margin-bottom: 0.87rem;
+}
+
+#contact-socal-media-iconsbuttons{
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
 }
 
 
+#page-button{
+    height: 3.75rem  ;
+    width: 3.75rem ;
+    border-radius: 50%;
+    background-color: #E9ECF2;
+}
 
 /* Modal */
+
+#modal-bottom{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #343434;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 98%;
+}
+
+#modal-container{
+    background-color: #fff;
+    position: absolute;
+    opacity: 100%;
+    padding-top: 3.43rem;
+    padding-bottom: 3.43rem ;
+    padding-left: 3.43rem ;
+    padding-right: 3.43rem;
+}
+
+#modal-container > #modal-image{
+    height: 39.56rem;
+    width: 61.31rem  ;
+    opacity: 100%;
+}
+
+#modal-items{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 2.37rem;
+}
+
+
+#modal-items > .modal-room,.modal-bathroom{
+    width: 14.56rem;
+    height: 4rem;
+    background-color: #E9ECF2;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.25rem;
+    text-align: left;
+    color: #000;
+    text-align: center;
+    padding-left: 4.2rem ;
+    padding-right: 4.2rem ;
+    padding-top: 0.93rem ;
+    padding-bottom: 0.93rem ;
+}
+
+
+#modal-items > .modal-dimensions{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.25rem;
+    text-align: left;
+    color:  #848383;
+
+}
+
+.modal-items-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.modal-items-2 > .modal-price{
+    height: 3.75rem;
+    width: 14.62rem ;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    text-align: left;
+    margin-bottom: 1.12rem;
+
+}
+
+.modal-items-2 > .button-purchase{
+    height: 4.25rem;
+    width: 14.37rem ;
+    background-color: #FE8100;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+    text-align: left;
+    color:  #FFFFFF;
+    padding-left: 3.8rem ;
+    padding-right: 4.2rem ;
+    padding-top: 0.93rem ;
+    padding-bottom: 0.93rem ;
+
+
+}
+
+#close-modal {
+
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+

@@ -10,27 +10,73 @@
     header {
     background-color: #1e1e1e;
     width: 100vw;
-    height: 109px;
+    height: 6.8125rem;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
     padding-left: 13.5rem;
     padding-right: 13.5rem;
-    gap: 22px;
+    gap: 1.375rem;
 }
 
-header > #logo-image{
-    height: 47px;
-    width: 47px;
+#logotype {
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.375rem;
+}
+
+header > #logotype > #logo-image{
+    height: 2.9375rem;
+    width: 2.9375rem;
     border-radius: 50%;
 }
 
-header >  #header-title-text{
+
+header > #logotype >  #header-title-text{
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 2.25rem;
     text-align: left;
+    color: #FFFFFF;
+}
+
+#navigation-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3.25rem ;
+}
+
+#navigation-buttons > #navigation-contact{
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#navigation-buttons > #navigation-loggout{
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    text-align: left;
+    color: #FFFFFF;
+    height: 3.43rem;
+    width: 10.18rem ;
+    background-color: #ec7c0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navigation-loggout > a {
+    text-decoration: none;
     color: #FFFFFF;
 }
 
@@ -56,10 +102,10 @@ section {
 
 .login-form-container{
 
-    height: 893px;
-    width: 621px;
+    height: 55.8125rem;
+    width: 38.8125rem;
     background-color: #FBFBFB;
-    border-radius: 26px;    
+    border-radius: 1.625rem;    
     display: flex;
     flex-direction: column;
     padding-left: 4.95rem;
@@ -71,33 +117,33 @@ section {
     color: #343434;
     font-weight: 700;
     font-family: 'poppins';
-    line-height: 48px;
-    font-size: 32px;
-    width: 354px;
-    height: 96px;
+    line-height: 3rem;
+    font-size: 2rem;
+    width: 22.125rem;
+    height: 6rem;
     margin-bottom: 5.6rem;
 
 }
 
 .login-form-container > .login-form > form{
     display: flex;
-    width: 468px;
+    width: 29.25rem;
     flex-direction: column;
     margin-bottom: 6.3rem;
 
 }
 
 form > .login-form-input{
-    height: 70px;
+    height: 4.375rem;
     background-color: #F2F2F4;
-    border-radius: 66px;
+    border-radius: 4.125rem;
     border: none;
     outline: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
     color: #848383;
     font-family: 'Poppins';
     margin-bottom: 2rem;
@@ -113,25 +159,31 @@ form > .login-form-input:focus{
    
 
 form > #login-form-button{
-    height: 70px;
-    border-radius: 66px;
+    height: 4.375rem;
+    border-radius: 4.125rem;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
     background-color: #FE8100;
     color: #fff ;
     border: none;
     outline: none;
     margin-top: 3.25rem;
+    cursor: pointer;
 
 }
+
+form > #login-form-button:focus{
+    background-color: #ec7c0b;
+}
+
 
 .account-create{
     color: #000;
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     margin-top: 5.8rem;
     margin-bottom: 6rem;
 }
@@ -139,8 +191,8 @@ form > #login-form-button{
 .account-create-button{
     font-family: 'Poppins';
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #FE8100;
     text-decoration: none;
 }
@@ -149,14 +201,14 @@ form > #login-form-button{
 
 #divider-line-horizontal{
     background-color: #d8d8d8;
-    height: 2px;
-    width: 468px;
+    height: 0.125rem;
+    width: 29.25rem;
 }
 
 #divider-line-vertical{
     background-color: #f8f8f8;
-    height: 893px;
-    width: 2px;
+    height: 55.8125rem;
+    width: 0.125rem;
 }
 
 
@@ -164,17 +216,17 @@ form > #login-form-button{
 
 .login-image-container{
 
-    height: 893px;
-    width: 734px;
+    height: 55.8125rem;
+    width: 45.875rem;
     background-image: url('../assets/image_login_container.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 26px;
+    border-radius: 1.625rem;
     font-family: 'Poppins';
     font-weight: 500;
-    line-height: 60px;
-    font-size: 40px;
+    line-height: 3.75rem;
+    font-size: 2.5rem;
     color: #E9ECF2;
     padding-top: 6.25rem;
     padding-left: 2.3rem;
@@ -182,8 +234,8 @@ form > #login-form-button{
 }
 
 .login-image-container > .login-image-container-text{
-    height: 120px;
-    width: 540px;
+    height: 7.5rem;
+    width: 33.75rem;
 }
 
 
