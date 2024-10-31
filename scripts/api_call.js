@@ -57,6 +57,13 @@ let appartaments = [
         "size": 100,
         "bedrooms": 2,
         "bathrooms": 1
+    },
+    {
+        "image": "../assets/image_container_logged_page.jpg",
+        "price": "R$ 300.000",
+        "size": 120,
+        "bedrooms": 1,
+        "bathrooms": 2
     }
 ];
 
@@ -65,9 +72,9 @@ let appartaments = [
 let appartamentCardsContainer = document.getElementById("appartament-cards-container");
 
 
-appartamentCardsContainer.innerHTML = appartaments.map(appartament => `
-    <div class="appartament-card">
-        <img src="${appartament.image}" alt="" srcset="">
+appartamentCardsContainer.innerHTML = appartaments.map((appartament) => `
+    <div class="appartament-card" >
+        <img src="${appartament.image}" alt="" srcset="" >
         <span class="appartament-card-price">${appartament.price}</span>
         <span class="appartament-card-dimensions">${appartament.size} m²</span>
         <div class="appartament-card-specifics">
@@ -77,14 +84,9 @@ appartamentCardsContainer.innerHTML = appartaments.map(appartament => `
     </div> `).join('');
 
 
-let closeModalButton = document.getElementById("close-modal");
-let modalBottom = document.getElementById("modal-bottom");
 
-closeModalButton.addEventListener('click', () => {
-    modalBottom.style.display = "none";
-});
 
-// Voltar para o começo
+// Go back to the start
 
 let pageButton = document.getElementById("page-button");
 
@@ -97,4 +99,46 @@ pageButton.addEventListener('click', () => {
 });
 
 
+let closeModalButton = document.getElementById("close-modal");
+let modalBottom = document.getElementById("modal-bottom");
 
+closeModalButton.addEventListener('click', () => {
+modalBottom.style.display = "none";
+});
+
+// Populating the modal with data from the apartment-card
+
+let appartamentCards = document.querySelectorAll(".appartament-card");
+
+let modalImage = document.getElementById("modal-image");
+let modalRoom = document.getElementById("modal-room");
+let modalBathroom = document.getElementById("modal-bathroom");
+let modalDimensions = document.getElementById("modal-dimensions");
+let modalPrice = document.getElementById("modal-price");
+
+appartamentCards.forEach((card) => {
+  card.addEventListener("click", (event) => {
+    
+
+    modalBottom.style.display = "none";
+
+    let apartmentIndex = Array.from(appartamentCards).indexOf(card);
+
+    
+    modalBottom.style.display = "flex";
+
+
+
+    modalImage.src = appartaments[apartmentIndex]['image'];
+    modalRoom.innerHTML = `${appartaments[apartmentIndex]['bedrooms']} ${appartaments[apartmentIndex]['bedrooms'] != 1 ? "quartos" : "quarto"}`;
+    modalBathroom.innerText = `${appartaments[apartmentIndex]['bathrooms']} ${appartaments[apartmentIndex]['bathrooms'] != 1 ? "banheiros" : "banheiro"}`;
+    modalDimensions.innerText = `${appartaments[apartmentIndex]['size']} m²`;
+    modalPrice.innerText= appartaments[apartmentIndex]['price'];
+    
+
+
+  });
+});
+
+
+    

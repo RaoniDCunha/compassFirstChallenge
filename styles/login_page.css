@@ -19,6 +19,8 @@
     gap: 1.375rem;
 }
 
+
+
 #logotype {
     background-color: #1e1e1e;
     display: flex;
@@ -79,6 +81,7 @@ header > #logotype >  #header-title-text{
     text-decoration: none;
     color: #FFFFFF;
 }
+
 
 /* Corpo da página */
 
