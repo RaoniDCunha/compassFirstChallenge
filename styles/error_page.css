@@ -1,0 +1,109 @@
+#errorpage-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 4.25rem;
+    padding-bottom: 2.9375rem;
+    gap: 10.9375rem;
+}
+
+/*  Text Container */
+
+#errorpage-text-container{
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 29.375rem;
+    padding-top: 14.375rem;
+}
+
+#errorpage-text-container > #errorpage-first-text{
+
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3.75rem;
+    text-align: left;
+    color:#FE8100;
+
+}
+
+#errorpage-text-container > #errorpage-second-text{
+
+    font-family: Poppins;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 6rem;
+    text-align: left;
+    color: #2E2E2E;
+
+
+}
+
+#errorpage-text-container > #errorpage-thirty-text{
+
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;    
+    color: #848383;
+    
+
+
+}
+
+#errorpage-text-container > #error-page-button{
+    height: 4.375rem;
+    border-radius: 4.125rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    background-color: #FE8100;
+    color: #fff ;
+    border: none;
+    outline: none;
+    margin-top: 3.25rem;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+#errorpage-text-container > #contact-socal-media-iconsbuttons{
+
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-top: 16rem;
+
+}
+
+
+/*  Divider */
+
+#divider-line-vertical-errorpage{
+
+    background-color: #f8f8f8;
+    height: 55.8125rem;
+    width: 0.125rem;
+
+}
+
+
+/*  Image Container */
+
+#erro-page-image-container{
+
+    height: 41.0625rem;
+    width: 41.0625rem;
+    background-image: url('../assets/errorPage/errorimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1.625rem;
+
+}

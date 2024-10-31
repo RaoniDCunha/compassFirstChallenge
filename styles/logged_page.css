@@ -239,6 +239,10 @@ footer {
     align-items: end;
 }
 
+#facebook-icon,#instagram-icon ,#youtube-icon, #twitter-icon {
+    cursor: pointer;
+}
+
 
 #page-button{
     height: 3.75rem  ;

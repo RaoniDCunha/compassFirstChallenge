@@ -2,6 +2,7 @@
 
 @import url('./styles/logged_page.css');
 
+@import url('./styles/error_page.css');
 
 * {
     margin: 0;
