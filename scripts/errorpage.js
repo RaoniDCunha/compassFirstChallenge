@@ -11,13 +11,14 @@ function backtoIndex() {
 }
 
 
+
+
+// Social Media Icons Redirect Events
+
 let instaIcon = document.getElementById("instagram-icon");
 let twitterIcon = document.getElementById("twitter-icon");
 let youtubeIcon = document.getElementById("youtube-icon");
 let facebookIcon = document.getElementById("facebook-icon");
-
-
-// Social Media Redirect Events
 
 facebookIcon.addEventListener('click',facebookRedirect);
 

@@ -1,3 +1,5 @@
+@media (min-width: 720px)  {
+
 #errorpage-main{
     display: flex;
     align-items: center;
@@ -6,6 +8,12 @@
     padding-top: 4.25rem;
     padding-bottom: 2.9375rem;
     gap: 10.9375rem;
+}
+
+/* Disabled Mobile Features */
+
+#erro-page-image-container-mobile,#error-page-button-mobile,#contact-socal-media-iconsbuttons-mobile{
+    display: none;
 }
 
 /*  Text Container */
@@ -105,5 +113,7 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 1.625rem;
+
+}
 
 }

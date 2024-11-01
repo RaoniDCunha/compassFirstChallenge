@@ -1,3 +1,6 @@
+
+//  Get and Trigger Form Event
+
 let form = document.getElementById("form-id");
 let trigger = document.getElementById('errormessage-validation');
 

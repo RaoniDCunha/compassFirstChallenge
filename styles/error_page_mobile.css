@@ -1,0 +1,94 @@
+@media (max-width: 720px)  {
+
+    /* Disabled Desktop Features in Mobile */
+    
+    header,#error-page-button,#divider-line-vertical, #erro-page-image-container,#contact-socal-media-iconsbuttons{
+        display: none;
+    }
+
+    /* Page Body */
+    #errorpage-main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 6.875rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1.875rem;
+    }
+
+    /* Image Container Mobile */ 
+    #erro-page-image-container-mobile{
+        width: 18.25rem ;
+        height: 15.875rem ;
+        object-fit: cover;
+
+    }
+
+   /* Text Container Mobile */ 
+
+    #errorpage-text-container{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        width: 24.875rem;
+        margin-top: 1.4375rem;
+        margin-bottom: 6.375rem;
+    }
+
+    #errorpage-text-container > #errorpage-first-text {
+        font-family: Poppins;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.875rem;
+        text-align: left;
+        color: #FE8100;
+
+
+    }
+
+    #errorpage-text-container > #errorpage-second-text {
+        font-family: Poppins;
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 3rem;
+        text-align: left;
+        color: #2E2E2E;
+        
+    }
+
+    #errorpage-text-container > #errorpage-thirty-text {
+        font-family: Poppins;
+        font-size: 0.8125rem;
+        font-weight: 400;
+        line-height: 1.1875rem;
+        text-align: left;
+        color: #848383;
+
+    }
+    
+    #errorpage-main > #error-page-button-mobile{
+        height: 4.375rem;
+        border-radius: 4.125rem;
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+        background-color: #FE8100;
+        color: #fff ;
+        border: none;
+        outline: none;
+        margin-top: 3.25rem;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10.75rem ;
+    }
+
+    /* Social Media container Mobile */ 
+
+    #errorpage-main > #contact-socal-media-iconsbuttons-mobile{
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        justify-content: end;
+    }
+}

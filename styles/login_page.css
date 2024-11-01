@@ -1,3 +1,4 @@
+@media (min-width: 600px)  {
 .login-page {
     background-color: #fff;
     height: 100vh;
@@ -5,6 +6,13 @@
     overflow-x: hidden;
 
 }
+
+/*  Disable Mobile Features in Desktop*/
+
+#logo-image-mobile{
+    display:none;
+}
+
 
 /* Header */
     header {
@@ -242,3 +250,4 @@ form > #login-form-button:focus{
 }
 
 
+}

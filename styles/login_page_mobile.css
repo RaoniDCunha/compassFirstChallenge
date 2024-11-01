@@ -1,0 +1,154 @@
+
+
+ @media (max-width: 600px)  {
+    
+
+    /* Page Body */
+    .login-page {
+        background-color: #fff;
+        height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        
+    }
+
+    /* Disabled Desktop Features in Mobile */
+
+    header,.login-image-container,#divider-line-vertical{
+        display: none;
+    }
+
+    /* Image container*/
+
+    #logo-image-mobile{
+        height: 9.625rem;
+        width: 9.625rem;
+        border-radius: 50%;
+        margin-top: 4.5625rem ;
+        margin-bottom: 4.0625rem ; 
+        margin-left: 8.625rem ;
+        margin-right: 8.625rem ;
+    }
+
+
+    /* Form Container*/
+
+    .login-form-container{
+        width: 23rem;
+        margin-left: 1rem ;
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .login-form-container > .login-title {
+        font-family: Poppins;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.875rem;
+        text-align: left;
+        color: #343434;
+        margin-bottom: 2.125rem;
+        
+    }
+        
+
+    .login-form > form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 24.875rem;
+    }
+
+    form > .login-form-input{
+        height: 3.75rem;
+        width: 100%;
+        background-color: #F2F2F4;
+        border-radius: 4.125rem;
+        border: none;
+        outline: none;
+        padding-left: 3.125rem;
+        padding-right: 1.25rem;
+        font-family: Poppins;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        text-align: left;
+        color: #848383;
+        margin-bottom: 2rem;
+    }
+    
+    form > .login-form-input:focus{
+        border: none;
+        outline: none;
+        color: #848383;
+        font-family: 'Poppins';
+    }
+    
+    #errormessage-validation{
+        margin-left: -2rem;
+    }
+    
+    form > #login-form-button{
+        height: 3.75rem;
+        width: 100%;
+        border-radius: 4.125rem;
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+        background-color: #FE8100;
+        color: #fff ;
+        border: none;
+        outline: none;
+        margin-top: 0.875rem;
+        cursor: pointer;
+        margin-bottom: 5.5625rem;
+    
+    }
+    
+    form > #login-form-button:focus{
+        background-color: #ec7c0b;
+    }
+
+    /* Divider */
+
+    #divider-line-horizontal{
+        background-color: #d8d8d8;
+        height: 0.125rem;
+        width: 100%;
+        margin-bottom: 7.1875rem;
+        
+    }
+
+    /* Account Create Container*/
+    
+    .account-create{
+        font-family: Poppins;
+        font-size: 0.9375rem;
+        font-weight: 400;
+        line-height: 1.375rem;
+        text-align: left;
+        color: #343434;
+
+    }
+
+    .account-create > .account-create-button{
+        color: #FE8100;
+        font-family: Poppins;
+        font-size: 0.9375rem;
+        font-weight: 700;
+        line-height: 1.375rem;
+        text-align: left;
+
+
+    }
+
+    
+
+}
