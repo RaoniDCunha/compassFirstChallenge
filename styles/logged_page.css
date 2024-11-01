@@ -18,8 +18,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-left: 18.6rem;
-    padding-right: 18.6rem;
+    padding-left: 13.75rem;
+    padding-right: 13.5625rem;
     padding-top: 6.8rem;
     flex-wrap: wrap;
 }
@@ -40,11 +40,11 @@ body {
 /* Service Container */
 
 .services-container{
-    height: 31rem ;
     width: 100vw ;
-    padding-left: 18.6rem;
-    padding-right: 18.6rem;
+    padding-left: 13.75rem;
+    padding-right: 13.5625rem;
     padding-top: 4.93rem;
+    
 }
 
 .services-container > span{
@@ -59,7 +59,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 17rem;
     margin-top: 1.37rem;
     flex-wrap: wrap;
 }
@@ -105,8 +105,8 @@ body {
 .appartaments-container {
     /*height: 55.2rem ; */
     width: 100vw ;
-    padding-left: 18.6rem;
-    padding-right: 18.6rem;
+    padding-left: 13.75rem;
+    padding-right: 13.5625rem;
     padding-bottom: 9.8rem;
     
 }
@@ -204,8 +204,8 @@ footer {
     flex-direction: row;
     align-items: end;
     justify-content: space-between;
-    padding-left: 18.6rem;
-    padding-right: 18.6rem;
+    padding-left: 13.75rem;
+    padding-right: 13.5625rem;
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
@@ -233,6 +233,7 @@ footer {
 }
 
 #contact-socal-media-iconsbuttons{
+    margin-top: 3.25rem;
     gap: 1.5rem;
     display: flex;
     flex-direction: row;
@@ -275,12 +276,14 @@ footer {
     padding-bottom: 3.43rem ;
     padding-left: 3.43rem ;
     padding-right: 3.43rem;
+    border-radius: 1rem;
 }
 
 #modal-container > #modal-image{
     height: 39.56rem;
     width: 61.31rem  ;
     opacity: 100%;
+    border-radius: 0.75rem;
 }
 
 #modal-items{
@@ -308,6 +311,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    border-radius: 0.75rem;
 }
 
 #modal-room,#modal-bathroom > span {
@@ -335,7 +339,7 @@ footer {
     height: 3.75rem;
     width: 14.62rem ;
     font-family: Poppins;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 3.75rem;
     text-align: left;
@@ -357,6 +361,7 @@ footer {
     padding-right: 4.2rem ;
     padding-top: 0.93rem ;
     padding-bottom: 0.93rem ;
+    border-radius: 0.75rem;
 
 
 }

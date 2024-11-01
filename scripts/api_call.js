@@ -98,6 +98,7 @@ pageButton.addEventListener('click', () => {
     });
 });
 
+// Close Modal
 
 let closeModalButton = document.getElementById("close-modal");
 let modalBottom = document.getElementById("modal-bottom");
@@ -105,6 +106,11 @@ let modalBottom = document.getElementById("modal-bottom");
 closeModalButton.addEventListener('click', () => {
 modalBottom.style.display = "none";
 });
+
+modalBottom.addEventListener('click', () => {
+    modalBottom.style.display = "none";
+});
+
 
 // Populating the modal with data from the apartment-card
 
@@ -141,4 +147,3 @@ appartamentCards.forEach((card) => {
 });
 
 
-    
