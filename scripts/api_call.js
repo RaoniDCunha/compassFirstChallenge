@@ -51,6 +51,7 @@ fetch('../data.json')
 // Close Modal
 let closeModalButton = document.getElementById("close-modal");
 let modalBottom = document.getElementById("modal-bottom");
+let modalContainer = document.getElementById("modal-container");
 
 closeModalButton.addEventListener('click', () => {
   modalBottom.style.display = "none";
@@ -59,6 +60,17 @@ closeModalButton.addEventListener('click', () => {
 modalBottom.addEventListener('click', () => {
   modalBottom.style.display = "none";
 });
+
+modalContainer.addEventListener('click', (event) => {
+    event.stopPropagation();
+});
+
+// Modal PurchasedButton Click
+let modalPurchasedButton = document.getElementById("button-purchase");
+
+modalPurchasedButton.addEventListener('click', () => {
+    alert('Produto Adicionado ao carrinho')
+  });
 
 
 // Go back to the start

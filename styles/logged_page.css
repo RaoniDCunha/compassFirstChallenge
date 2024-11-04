@@ -254,30 +254,29 @@ footer {
 
 /* Modal */
 
-#modal-bottom{
+#modal-bottom {
     height: 100%;
     width: 100%;
     z-index: 1;
     position: fixed;
     left: 0;
     top: 0;
-    background-color: #343434;
+    background-color: rgba(52, 52, 52, 0.7); 
     display: none;
     align-items: center;
     justify-content: center;
-    opacity: 98%;
-}
-
-#modal-container{
+  }
+  
+  #modal-container {
     background-color: #fff;
     position: absolute;
-    opacity: 100%;
+    opacity: 100%; 
     padding-top: 3.43rem;
-    padding-bottom: 3.43rem ;
-    padding-left: 3.43rem ;
+    padding-bottom: 3.43rem;
+    padding-left: 3.43rem;
     padding-right: 3.43rem;
     border-radius: 1rem;
-}
+  }
 
 #modal-container > #modal-image{
     height: 39.56rem;
