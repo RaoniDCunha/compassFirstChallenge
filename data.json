@@ -1,55 +1,55 @@
 [
     {
-        "image": "../assets/image_container_logged_page.jpg",
+        "image": "https://s3-alpha-sig.figma.com/img/6f2f/897b/5b6015b7817c1aa6416b17ada9f2997e?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BwPA9qksfBhfJc57fY1G0ai-LC96Xu2qJ4ORIjNDz28sworZksJtwDGIi-njzFOENzGWe~AM0Jtu1KXsLBwTqfEgC8Ez50nDa5hD2mGXK~UWBacGRDdrTG4qjrn0UPW9wa~6HK-pXdG8f7tkxI4f2ufSXOK3xkzd1IZ4YKCz3RJF7dYkQZbubYshMc8erd5Cmkt5lcHhCtVrULzZ6uPE~RUx4WXl1JLRVjD3JWFD9J9ftcNUI~90G9mRA02XK-H9YCOOCUPNonlxQGWAYggyMK-KNkYZE5P6jCpO1CeCv53KmmxbnuaD0wZ0mDNxcAkgKYloDR4I~lKIQUexwdEYtQ__",
         "price": "R$ 500.000",
         "size": 120,
         "bedrooms": 3,
         "bathrooms": 2
     },
     {
-        "image": "../assets/image_container_logged_page.jpg",
+        "image": "https://s3-alpha-sig.figma.com/img/521e/1023/0339670272588ed64a5bb4ac68c5ea18?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RoEhk39-aFgTsOHPt7G3gFglE46J9HBw02Jk6RgXBOuSBQ3VasXN-60ItOb4UaJuZxbhRGDa9rthWaj7p-fJmVF49vPoiOndlKonRAUjizBoBgjb5MSQb79tfgLLy9zlqAqg4TGSD45R9T-GzdfWbxJ7xtSPE9rd9AZxqFV2k9ZakCwb~WKEMG1nLn2fTjxZdZ8fLmlIo0TOcuIaVUj3jBiA7ezluveh2W0M9d6nPz1At-KJvDH-8CLgYonS6SyEajo2UsZMEr5WHdZeQtsEwbb2PH8VuoEAJiUA-WWHXE5kzDEw~uvABYEjLQzfEdjeYT6x-vKwsLI-rMuxNJyoBA__",
         "price": "R$ 850.000",
         "size": 180,
         "bedrooms": 4,
         "bathrooms": 3
     },
     {
-        "image": "../assets/image_container_logged_page.jpg",
+        "image": "https://s3-alpha-sig.figma.com/img/c22c/540b/d75bc889b751eaff5c43fe1ff8459da5?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UVkrom7iP-qCs1l0HtsM6O2qSz~fnQRcMtdvj0h8LyZX7RhAX1y4IALn4eM9yMC4ClLVOKg97PZGkEYwphczFgWpOxhimy0chw-oywM6VxITSoZ7dWxHFKjxuABZ9bXTKV9WsvFkBi1iT4gNsOdqVCqbnzNWtRyPv42e2rMZN2QYsLLPYtTmlfyM0XYaL14ax~QadXBP6Vk5BydEVLmxJu~Za6ZpDRDoOL7kmDMrKcqWyyTvBHP7UixAzf0ikCH2nR8qViOPfe1KwdBTuoCpe46jyVqagfD4UEzLEQsY-ShE8huxJ73h9oLGOhRE-NaKh8YIn2A757YJOE-jQm7wWw__",
         "price": "R$ 1.200.000",
         "size": 250,
         "bedrooms": 5,
         "bathrooms": 4
     },
     {
-        "image": "../assets/image_container_logged_page.jpg",
+        "image": "https://s3-alpha-sig.figma.com/img/061f/5f70/7c6e15719a5c127f87b285e75e5bc9cd?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C6Pd4wwaPZo-MJvUxpMVG9WXrKer3plR7r2NKjjnK4rnNOusKNaUEMUlcK7lENOfNFBxosbvKjvfctLXN9qoFl-ui~kZ5O5Jl-7pttwKcE33dBLNzu5YbAyetmia6MFY6IW6VAH8~rLaWmADeEXIoTemVYutFHPb~Y~7iqnwDev1UDqtBYEU2PMJ41a8WUAj2QjzQFT9RWDFXp4bTZA4jA~RgAaq26m0aDbTadBzfHnEXk3W3hN8WMlj7~enNtPjEoyWKIKtOjy5lcRICK6ljI8IasngnnmoKByjkiDi40-TyO~pDqmE0CPb9bCfxTvz2jwLXy5VKfTi5Q4UzxWahA__",
         "price": "R$ 300.000",
         "size": 90,
         "bedrooms": 2,
         "bathrooms": 1
     },
     {
-        "image": "../assets/image_container_logged_page.jpg",
+        "image": "https://s3-alpha-sig.figma.com/img/5fa1/0080/62cd966cf121540d820515d6b00ce5fc?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=By-zzC-7D-vGlSpkMn8lGpG-hyRleRKTd8S6QI3-Vldikw1tA0t6~Rt3TphtzK5-TjiqHhQTyg7L9~Bl44CHmleLKxfgDsLNmVyRj~KXfcUlCkTA8IlA7FdHdeXahdvZU58SStR0~IB2KUp0B1bIFisUeDvVLR2IYYm1Rg8vJVOQV-R366lhb49u4Xkl5LJLXmfay56FZP~5AqYz7IJ-YW7N33ohX7dOXSl0glY8LBPtQWGhTGKiPUW72vfLhOJARC0dOyK1TTiEfN~K3tzRC6UkBZcHytC2YkhbMrN6T9MNbMjF0ME~MKPm3s4P0IUR4P10P3pzEeOJ0enmIwm8sw__",
         "price": "R$ 1.500.000",
         "size": 320,
         "bedrooms": 6,
         "bathrooms": 5
     },
     {
-        "image": "../assets/image_container_logged_page.jpg",
+        "image": "https://s3-alpha-sig.figma.com/img/4521/9f9c/21981af672097492498875c57dab2c2b?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oTm7YRpQuyfMTch197fJiAvXEPWE~6-wVAslZ0TobLTAAvEmkUMDIUgrzaeW0b1ZQDod-Uqy1IDd3RudzznYdrni67bwLuc-Fkr~0LxzSsD6sDQhgJJin0uljGWYtzRlYFjX-eahodJu4wvCMj-nnM8RYwTPXpqyAtCQosn5ty4sfb26LgoiHbnG20xE6Xzlqg7pZDi1ETFtHjDHWnOCx-yUTUSIPDkAWU36eRwdE9lH4Yfw2qB0j9KYDJXr4UBjnCLxGkcDDZ~F7z8oBHLL7Nv~wMX2ZdRmgwBlB1OSkP9DKrQY-SFCjbibQHDXc7xvUJCqXaD3N1S0QGxDd7Pa0Q__",
         "price": "R$ 700.000",
         "size": 150,
         "bedrooms": 3,
         "bathrooms": 2
     },
     {
-        "image": "../assets/image_container_logged_page.jpg",
+        "image": "https://s3-alpha-sig.figma.com/img/be81/9915/9fc064a95c7657d34673fa1247c016a6?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TBVcwEmaJIqrC3ew47lfs8Wmmz0RqHuVHFd6tH~D9z3dSH4E7bYhwPtDo3HjNRUbs5YMs4JZe5RoZ6RNFCqYHIQMEhlh6l2KOdrvUzWtb7lzQbZhSnv3XyEsiMiP1PcCpZ~7cW~iicCAv3U60C2Gpah72clSlqD7RscqhQiXHAl2O-6s9QLtcWuiJySTvMNWtGZvfBly3lhLT7m4dCsXrTCzyzbBCJIBGY~3Fhtcp2dwrMwo~k8NSABwMaaLjJk3NZFevHjUolpVi5SRwIDaT5lnPmIeK0tsC2YReJYYLGKNN7I-TbGjo91js9SjCFkiLm37itib6AK3nxpakpqqoA__",
         "price": "R$ 950.000",
         "size": 220,
         "bedrooms": 4,
         "bathrooms": 3
     },
     {
-        "image": "../assets/image_container_logged_page.jpg",
+        "image": "https://s3-alpha-sig.figma.com/img/e00e/95f0/0eff5809c16cb4471007fd6a8e6d7c04?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RFtv0~4njjO11aCyagrR5gP~~r3M3izCtcMPkWyhDYlff38ZtOLZ9cBsljfwDuxQLblD63KlF1ItJddUNJHiZcACVoUIxOJcll0nrfd9Lk5l8GPQYfunDKJVX1CViF~WI0Qnj-Cp5ArAsVcNHDewQ-0O3nAcKMUfOihkaBTwn6A73HUx~hjQCt45mCDFOJNIPZ3IZ3rUKmt2UHOFt~CKz1fYQXT3Kle8PthuOg7MtBx0bBB~8FE6jpwlrdUD5jpswN5b5vSS33j4ZHffOuWh~BE9s7gOmJqTsdiGyy8gpIVoNd46Jrrda9KcxacAmezaP2JzLRzBbenw4PM~Y6RkXw__",
         "price": "R$ 400.000",
         "size": 100,
         "bedrooms": 2,
