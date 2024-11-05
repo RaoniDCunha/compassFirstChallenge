@@ -44,7 +44,7 @@ function validateAndRedirect() {
     errormessage.style.color = '#00E749';
 
     setInterval( () => {
-    window.location.href = "http://127.0.0.1:5500/pages/logged_page.html"; 
+    window.location.href = "/pages/logged_page.html"; 
     },1200)
     
 }
