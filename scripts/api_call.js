@@ -69,7 +69,7 @@ modalContainer.addEventListener('click', (event) => {
 let modalPurchasedButton = document.getElementById("button-purchase");
 
 modalPurchasedButton.addEventListener('click', () => {
-    alert('Produto Adicionado ao carrinho')
+    alert('Redirecionando Para a Página de Compras e comfirmação do Pedido')
   });
 
 
