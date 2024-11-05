@@ -1,9 +1,9 @@
-##Projeto de primeiro desafio da Compass.Uol##
+#Projeto de primeiro desafio da Compass.Uol 🚀
 
 
 A agência Tucano Tropical é uma agência imobiliaria que ajuda você a encontrar o seu paraiso perfeito para morar ou curtir as férias.
 
-#Tela de Login:#
+##Tela de Login 🔒:
 
 Na tela de Login é exibido um formulário de login com os seguintes campos:
 
@@ -32,7 +32,7 @@ Na tela de Login é exibido um formulário de login com os seguintes campos:
 </div>
 
 
-#Tela Home/ou de Usuario Logado:#
+##Tela Home/ou de Usuario Logado 🏠:
 
 <div style="display: flex; justify-content: center;height: 100px; width: 150px;">
   <img src="./assets/readme/loggedpage.png" alt="Imagem da seção de serviços">
@@ -62,7 +62,7 @@ Na tela de Login é exibido um formulário de login com os seguintes campos:
   <img src="./assets/readme/footer.png" alt="Imagem do botão de scroll para o topo">
 </div>
 
-#Telas de Erro:#
+##Telas de Erro ⚠️:
 
 Caso alguma página ainda esteja em construção no nosso sistema ou esteja sendo modificada, é exibido uma tela de Erro lhe informando , neste caso , basta clicar no botão "Voltar" na tela e você poderá voltar a navegar normalmente nas demais páginas.
 
@@ -70,7 +70,7 @@ Caso alguma página ainda esteja em construção no nosso sistema ou esteja send
   <img src="./assets/readme/errorpage.png" alt="Imagem da tela de erro">
 </div>
 
-#Versões Mobile:# 
+##Versões Mobile 📱: 
 
 Alem disto, o nosso site contem acessibilidade para dispositivos móveis, se você estiver navegando em um dispositivo móvel ou tablet, notará que a página exibida será diferente da versão de navegador e será mais fácil o acesso.
 
@@ -82,8 +82,7 @@ Alem disto, o nosso site contem acessibilidade para dispositivos móveis, se voc
   <img src="./assets/readme/mobile2.png" alt="Imagem da versão mobile do site">
 </div>
 
-#Tecnologias Utilizadas#:
-    - HTML
-    - CSS
-    - JAVASCRIPT
-
+##Tecnologias Utilizadas:
+    - ###HTML
+    - ###CSS
+    - ###JAVASCRIPT
